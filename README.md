@@ -35,13 +35,18 @@ Reformer	0.028
 # Hạn chế
 Việc huấn luyện một mô hình ngôn ngữ như GPT-2, T5, Reformer với số lượng dữ liệu huấn luyện chỉ 10 nghìn dòng văn bản là rất hạn chế và có thể ảnh hưởng đáng kể đến chất lượng của mô hình.
 •	Một mô hình đào tạo trên số lượng dữ liệu huấn luyện nhỏ sẽ có khả năng tổng quát hóa kém hơn so với mô hình đào tạo trên số lượng dữ liệu huấn luyện lớn hơn. Điều này có nghĩa là mô hình có thể không tốt trong việc dự đoán các dữ liệu mới ngoài tập huấn luyện.
+
 •	Việc đào tạo mô hình với số lượng dữ liệu huấn luyện nhỏ có thể dẫn đến mô hình không đạt được hiệu suất tối ưu do thiếu dữ liệu đủ để mô hình học được các quy luật và mối quan hệ trong dữ liệu.
+
 •	Với số lượng dữ liệu huấn luyện nhỏ, mô hình có thể bị ảnh hưởng bởi nhiễu và độ chính xác của mô hình có thể bị giảm.
+
 •	Khi đào tạo mô hình với số lượng dữ liệu huấn luyện nhỏ, mô hình có thể không được đào tạo đủ để xử lý được các thông tin phức tạp và các trường hợp ngoại lệ.
 
 # Hướng phát triển
 •	Tăng cường số lượng dữ liệu huấn luyện
+
 •	Tối ưu hóa hiệu suất mô hình
+
 •	Tăng tốc độ huấn luyện
 
 
